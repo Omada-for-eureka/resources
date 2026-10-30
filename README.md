@@ -2,24 +2,31 @@
 
 Bibliothèque de ressources informatiques partagées par la communauté **Omada for eureka**.
 
+## Par où commencer ?
+
+- 🇫🇷 **[Ressources en français](ressources-en-francais/)** : plateformes, documentation et MOOC gratuits en français.
+- 🌱 **[Contribuer à l'open source](open-source/)** : faire sa première Pull Request.
+- 🗺️ **[Parcours d'apprentissage](learning-paths/)** : feuilles de route et cursus complets.
+
 ## Catégories
 
-| Catégorie | Dossier |
-| --- | --- |
-| Informatique fondamentale | `computer-science/` (algorithms, data-structures, operating-systems, computer-architecture) |
-| Programmation | `programming/` (python, javascript, typescript, java, c, cpp, php, go, rust) |
-| Développement web | `web-development/` (frontend, backend, fullstack, api) |
-| Développement mobile | `mobile-development/` (android, ios, cross-platform) |
-| Réseaux, systèmes et télécoms | `networks-systems-telecom/` (networking-fundamentals, routing-switching, network-administration, wireless, telecommunications, system-administration, virtualization, labs) |
-| Bases de données | `databases/` (relational, nosql, data-modeling) |
-| Intelligence artificielle et data | `artificial-intelligence/` (machine-learning, deep-learning, generative-ai, data-science) |
-| Cybersécurité | `cybersecurity/` (fundamentals, web-security, network-security, ethical-practice) |
-| DevOps et cloud | `devops-cloud/` (linux, docker, ci-cd, cloud) |
-| UI/UX | `ui-ux-design/` |
-| Outils et plugins | `tools-and-plugins/` (vscode, browser-extensions, developer-tools, productivity) |
-| Parcours d'apprentissage | `learning-paths/` |
+Chaque catégorie contient une **sélection de projets open source vérifiés** (actifs, non archivés), avec niveau, type et licence.
 
-Les dossiers sont créés **au fur et à mesure des contributions** : un dossier n'existe que s'il contient au moins une ressource.
+| Catégorie | Contenu |
+| --- | --- |
+| [Informatique fondamentale](computer-science/) | Algorithmes, structures de données, conception de systèmes |
+| [Programmation](programming/) | Python, JavaScript, TypeScript, Java, C/C++, Go, Rust, PHP |
+| [Développement web](web-development/) | Frontend, backend, API |
+| [Développement mobile](mobile-development/) | Android, iOS, Flutter, React Native |
+| [Réseaux, systèmes et télécoms](networks-systems-telecom/) | Réseaux, Cisco/CCNA, GNS3, admin système, supervision, 4G/5G |
+| [Bases de données](databases/) | SQL, NoSQL, outils |
+| [Intelligence artificielle et data](artificial-intelligence/) | Cours, machine learning, LLM |
+| [Cybersécurité](cybersecurity/) | OWASP, labs légaux, CTF |
+| [DevOps et cloud](devops-cloud/) | Linux, Docker, Kubernetes, CI/CD |
+| [UI/UX](ui-ux-design/) | Outils de design libres |
+| [Outils et plugins](tools-and-plugins/) | Éditeurs, extensions, outils du quotidien |
+
+On ne copie aucun contenu : la bibliothèque **pointe vers les sources officielles**, ce qui la garde légère et toujours à jour.
 
 ## Ajouter une ressource
 
