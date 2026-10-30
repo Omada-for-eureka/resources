@@ -6,10 +6,11 @@ Bibliothèque de ressources informatiques partagées par la communauté **Omada 
 
 | Catégorie | Dossier |
 | --- | --- |
-| Informatique fondamentale | `computer-science/` (algorithms, data-structures, operating-systems, computer-networks, computer-architecture) |
+| Informatique fondamentale | `computer-science/` (algorithms, data-structures, operating-systems, computer-architecture) |
 | Programmation | `programming/` (python, javascript, typescript, java, c, cpp, php, go, rust) |
 | Développement web | `web-development/` (frontend, backend, fullstack, api) |
 | Développement mobile | `mobile-development/` (android, ios, cross-platform) |
+| Réseaux, systèmes et télécoms | `networks-systems-telecom/` (networking-fundamentals, routing-switching, network-administration, wireless, telecommunications, system-administration, virtualization, labs) |
 | Bases de données | `databases/` (relational, nosql, data-modeling) |
 | Intelligence artificielle et data | `artificial-intelligence/` (machine-learning, deep-learning, generative-ai, data-science) |
 | Cybersécurité | `cybersecurity/` (fundamentals, web-security, network-security, ethical-practice) |
