@@ -1,0 +1,78 @@
+name: Proposer une ressource
+description: Ajouter une ressource utile à la communauté
+title: "[RESOURCE] "
+labels: ["resource", "status: triage"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Nom de la ressource
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Lien
+      placeholder: https://
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Catégorie
+      options:
+        - Informatique fondamentale
+        - Programmation
+        - Développement web
+        - Développement mobile
+        - Bases de données
+        - Intelligence artificielle et data
+        - Cybersécurité
+        - DevOps et cloud
+        - UI/UX
+        - Outils et plugins
+        - Parcours d'apprentissage
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options: [Documentation, Cours, Tutoriel, Outil, Vidéo, Autre]
+    validations:
+      required: true
+  - type: dropdown
+    id: level
+    attributes:
+      label: Niveau
+      options: [Débutant, Intermédiaire, Avancé, Tous niveaux]
+  - type: dropdown
+    id: language
+    attributes:
+      label: Langue
+      options: [Français, Anglais, Autre]
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Pourquoi cette ressource est-elle utile ?
+  - type: input
+    id: license
+    attributes:
+      label: Licence ou conditions d'utilisation connues
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Vérification du lien
+      options:
+        - label: Le lien fonctionne.
+          required: true
+        - label: La source est identifiée.
+          required: true
+        - label: La ressource est correctement décrite.
+        - label: Les droits d'utilisation ont été examinés.

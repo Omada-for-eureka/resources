@@ -1,0 +1,28 @@
+name: Signaler un lien cassé ou une ressource obsolète
+description: Une ressource ne fonctionne plus ou n'est plus à jour
+title: "[LINK] "
+labels: ["bug", "status: triage"]
+body:
+  - type: input
+    id: file
+    attributes:
+      label: Fiche concernée
+      placeholder: programming/python/python-official-tutorial.md
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: Problème
+      options:
+        - Lien cassé
+        - Contenu obsolète
+        - Informations incorrectes
+        - Problème de licence ou de droits
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Détails
+      description: Nouveau lien éventuel, explication…
